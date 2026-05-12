@@ -1,0 +1,113 @@
+{
+  "skill_name": "java-code-review",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "service-layer-code-review",
+      "prompt": "请审查以下Java Service层代码，检查是否符合规范：\n\n```java\npackage com.example.service;\n\nimport org.springframework.stereotype.Service;\n\n@Service\npublic class UserService {\n    \n    public User getUserById(Long id) {\n        // 查询用户\n        return userRepository.findById(id).orElse(null);\n    }\n    \n    public void saveUser(User user) {\n        userRepository.save(user); // 保存用户\n    }\n}\n```",
+      "expected_output": "审查报告应包含：1) 类缺少Javadoc注释；2) 方法缺少Javadoc注释；3) 存在行尾注释；4) 缺少依赖注入；5) 返回实体类而非DTO",
+      "files": [],
+      "assertions": [
+        {
+          "name": "检查类注释问题",
+          "type": "contains",
+          "target": "类注释",
+          "expected": true
+        },
+        {
+          "name": "检查方法注释问题",
+          "type": "contains",
+          "target": "方法注释",
+          "expected": true
+        },
+        {
+          "name": "检查行尾注释问题",
+          "type": "contains",
+          "target": "行尾注释",
+          "expected": true
+        },
+        {
+          "name": "包含改进建议",
+          "type": "contains",
+          "target": "改进建议",
+          "expected": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "controller-layer-code-review",
+      "prompt": "检查这个Controller是否符合Spring Boot项目规范：\n\n```java\n@RestController\n@RequestMapping(\"/api/users\")\npublic class userController {\n    \n    @Autowired\n    private UserRepository userRepository;\n    \n    @GetMapping(\"/{id}\")\n    public User getUser(@PathVariable Long id) {\n        return userRepository.findById(id).get();\n    }\n}\n```",
+      "expected_output": "审查报告应包含：1) 类名不符合UpperCamelCase（userController应为UserController）；2) Controller直接操作数据库；3) 缺少异常处理；4) 返回实体类而非DTO；5) 缺少类和方法注释",
+      "files": [],
+      "assertions": [
+        {
+          "name": "检查命名规范问题",
+          "type": "contains",
+          "target": "命名",
+          "expected": true
+        },
+        {
+          "name": "检查分层架构问题",
+          "type": "contains",
+          "target": "Controller",
+          "expected": true
+        },
+        {
+          "name": "检查异常处理问题",
+          "type": "contains",
+          "target": "异常",
+          "expected": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "entity-layer-code-review",
+      "prompt": "审查以下Entity类代码的规范性问题：\n\n```java\n@Entity\n@Table(name = \"t_user\")\npublic class userentity {\n    @id\n    @generatedvalue\n    private Long id;\n    \n    private String userName;\n    \n    @Column(name=\"create_time\")\n    private Date createTime;\n}\n```",
+      "expected_output": "审查报告应包含：1) 类名不符合UpperCamelCase；2) 注解使用错误（@id应为@Id）；3) 缺少类注释；4) 缺少字段注释；5) 建议使用Lombok简化代码",
+      "files": [],
+      "assertions": [
+        {
+          "name": "检查类命名问题",
+          "type": "contains",
+          "target": "userentity",
+          "expected": true
+        },
+        {
+          "name": "检查注解规范",
+          "type": "contains",
+          "target": "注解",
+          "expected": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "eval_name": "complete-code-review",
+      "prompt": "请对以下完整的Java代码进行全面审查，生成详细的审查报告：\n\n```java\npackage com.unicom.info.service.impl;\n\nimport org.springframework.stereotype.Service;\nimport lombok.extern.slf4j.Slf4j;\n\n@Slf4j\n@Service\npublic class DataProcessService {\n    \n    public void processData(List<Data> dataList) {\n        for(Data data : dataList) {\n            // 处理每条数据\n            processSingle(data);\n        }\n    }\n    \n    private void processSingle(Data data) {\n        System.out.println(\"Processing: \" + data.getName());\n        data.setStatus(\"PROCESSED\");\n    }\n}\n```",
+      "expected_output": "审查报告应包含：1) 类缺少Javadoc注释；2) 方法缺少Javadoc注释；3) 使用System.out.println而非SLF4J日志；4) 循环处理数据性能问题；5) 缺少事务注解；6) 常量定义不规范",
+      "files": [],
+      "assertions": [
+        {
+          "name": "检查日志规范问题",
+          "type": "contains",
+          "target": "System.out",
+          "expected": true
+        },
+        {
+          "name": "检查事务管理问题",
+          "type": "contains",
+          "target": "@Transactional",
+          "expected": true
+        },
+        {
+          "name": "包含评分",
+          "type": "contains",
+          "target": "评分",
+          "expected": true
+        }
+      ]
+    }
+  ]
+}

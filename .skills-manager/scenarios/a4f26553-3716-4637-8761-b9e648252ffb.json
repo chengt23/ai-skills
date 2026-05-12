@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "a4f26553-3716-4637-8761-b9e648252ffb",
+  "name": "UI",
+  "description": "预设Ui设计相关skill",
+  "icon": "palette",
+  "sort_order": 999
+}

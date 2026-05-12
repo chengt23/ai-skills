@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed7fffa0-8fb0-4f6e-b5e6-c9d8ec18351b",
+  "path": "paddleocr-doc-parsing",
+  "path_key": "paddleocr-doc-parsing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

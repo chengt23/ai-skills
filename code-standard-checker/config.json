@@ -1,0 +1,26 @@
+{
+  "name": "code-standard-checker",
+  "version": "1.0.0",
+  "description": "代码规范检查工具，用于检查各种编程语言的代码是否符合项目规范和最佳实践",
+  "author": "Lingma Team",
+  "license": "MIT",
+  "dependencies": {
+    "python": ">=3.6"
+  },
+  "entry_point": "main.py",
+  "supported_languages": [
+    "java",
+    "javascript",
+    "typescript",
+    "python",
+    "html",
+    "css"
+  ],
+  "features": [
+    "命名规范检查",
+    "注释规范检查",
+    "安全问题检测",
+    "性能问题检测",
+    "代码风格检查"
+  ]
+}

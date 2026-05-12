@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1300e56-dadd-4921-b100-19114a5cf69f",
+  "path": "docker-patterns",
+  "path_key": "docker-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

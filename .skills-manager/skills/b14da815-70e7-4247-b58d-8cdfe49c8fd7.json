@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b14da815-70e7-4247-b58d-8cdfe49c8fd7",
+  "path": "solid-principles",
+  "path_key": "solid-principles",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

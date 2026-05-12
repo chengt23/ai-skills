@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "012313da-7c70-4e91-b382-cd3a4593f07f",
+  "path": "code-standard-checker",
+  "path_key": "code-standard-checker",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fdea39c8-38fb-44d8-9af8-55cdee84dba5",
+  "path": "wechat-studio",
+  "path_key": "wechat-studio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

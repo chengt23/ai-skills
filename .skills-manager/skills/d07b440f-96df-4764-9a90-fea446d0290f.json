@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d07b440f-96df-4764-9a90-fea446d0290f",
+  "path": "java-code-review",
+  "path_key": "java-code-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

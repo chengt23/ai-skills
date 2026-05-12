@@ -1,0 +1,11 @@
+{
+  "owner": "axtonliu",
+  "slug": "excalidraw-diagram",
+  "displayName": "Excalidraw Diagram Generator",
+  "latest": {
+    "version": "1.3.1",
+    "publishedAt": 1773100525601,
+    "commit": "https://github.com/openclaw/skills/commit/10cf203b9709a834e3814fa55b461e214ead8de6"
+  },
+  "history": []
+}

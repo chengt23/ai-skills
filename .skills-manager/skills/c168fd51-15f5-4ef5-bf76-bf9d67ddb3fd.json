@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c168fd51-15f5-4ef5-bf76-bf9d67ddb3fd",
+  "path": "skill-creator",
+  "path_key": "skill-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

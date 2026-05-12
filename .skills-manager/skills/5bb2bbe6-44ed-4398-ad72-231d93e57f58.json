@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bb2bbe6-44ed-4398-ad72-231d93e57f58",
+  "path": "xmind",
+  "path_key": "xmind",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

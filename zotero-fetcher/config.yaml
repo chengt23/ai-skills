@@ -1,0 +1,44 @@
+zotero:
+  user_id: "12546629" # 请替换为你的凭据
+  api_key: "XXXXXXXXXXXXXXXXXXXX"  # 请替换为你的 Zotero API Key
+  library_type: user
+  include_path: null
+
+source:
+  arxiv:
+    enabled: true
+    category: ["cs.CR","cs.SE","cs.CY"]
+    include_cross_list: true
+
+reranker:
+  type: api
+  top_k: 30
+  api:
+    base_url: "https://aihubmix.com/v1"
+    api_key: "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # 请替换为你的 Embedding API Key
+    model: "text-embedding-3-large"
+    batch_size: 32
+  local:
+    model: jinaai/jina-embeddings-v5-text-nano
+
+profile:
+  fallback_topics: []
+
+llm:
+  api:
+    key: "" # 留空时复用 reranker.api.api_key
+    base_url: "" # 留空时复用 reranker.api.base_url
+  generation_kwargs:
+    model: mm-minimax-m2.5
+    max_tokens: 10000
+    temperature: 0.2
+  language: Chinese
+
+inbox:
+  root_dir: inbox
+
+executor:
+  dry_run: false
+  request_timeout: 120
+  debug: false
+  max_workers: 4

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5cf0981b-ac3c-4faf-88c4-2136cd552853",
+  "path": "zotero-fetcher",
+  "path_key": "zotero-fetcher",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

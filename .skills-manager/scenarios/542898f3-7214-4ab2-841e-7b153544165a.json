@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "542898f3-7214-4ab2-841e-7b153544165a",
+  "name": "后端",
+  "description": "预设后端相关skill",
+  "icon": "database",
+  "sort_order": 999
+}

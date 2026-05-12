@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "46f67233-7d17-4e45-9ee1-8063909dd588",
+  "path": "technical-writer",
+  "path_key": "technical-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
