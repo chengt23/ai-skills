@@ -4,5 +4,5 @@
   "name": "后端",
   "description": "预设后端相关skill",
   "icon": "database",
-  "sort_order": 999
+  "sort_order": 4
 }

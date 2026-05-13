@@ -3,5 +3,9 @@
   "scenario_id": "f28b7edf-5b3c-49fe-a033-75b6a6f5c85d",
   "skill_id": "1205aceb-30f6-4b8c-8737-d8c472956847",
   "sort_order": 16,
-  "tools": {}
+  "tools": {
+    "claude_code": true,
+    "lingma": true,
+    "opencode": true
+  }
 }
