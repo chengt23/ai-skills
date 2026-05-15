@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a249bfd2-17dd-4756-8e21-677687c89001",
+  "path": "chinese-code-review",
+  "path_key": "chinese-code-review",
+  "enabled": true,
+  "tags": [
+    "中文代码审查"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jnMetaCode/superpowers-zh.git",
+    "subpath": "skills\\chinese-code-review",
+    "branch": null
+  }
+}

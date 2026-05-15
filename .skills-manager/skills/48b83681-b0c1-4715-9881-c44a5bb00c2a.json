@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "48b83681-b0c1-4715-9881-c44a5bb00c2a",
+  "path": "using-git-worktrees",
+  "path_key": "using-git-worktrees",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jnMetaCode/superpowers-zh.git",
+    "subpath": "skills\\using-git-worktrees",
+    "branch": null
+  }
+}

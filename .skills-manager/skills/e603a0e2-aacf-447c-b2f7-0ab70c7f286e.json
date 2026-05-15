@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_id": "e603a0e2-aacf-447c-b2f7-0ab70c7f286e",
+  "path": "brainstorming",
+  "path_key": "brainstorming",
+  "enabled": true,
+  "tags": [
+    "头脑风暴",
+    "设计规格",
+    "需求分析"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jnMetaCode/superpowers-zh.git",
+    "subpath": "skills\\brainstorming",
+    "branch": null
+  }
+}

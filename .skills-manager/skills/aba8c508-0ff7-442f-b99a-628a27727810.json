@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aba8c508-0ff7-442f-b99a-628a27727810",
+  "path": "software-copyright-materials",
+  "path_key": "software-copyright-materials",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Fokkyp/SoftwareCopyright-Skill.git",
+    "subpath": "software-copyright-materials",
+    "branch": null
+  }
+}

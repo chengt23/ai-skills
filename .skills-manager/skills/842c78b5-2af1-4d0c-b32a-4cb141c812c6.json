@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "842c78b5-2af1-4d0c-b32a-4cb141c812c6",
+  "path": "patent-disclosure-skill",
+  "path_key": "patent-disclosure-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/handsomestWei/patent-disclosure-skill.git",
+    "subpath": null,
+    "branch": null
+  }
+}

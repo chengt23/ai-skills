@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa40a9b4-cdc5-4eee-9c1a-79c702cb5623",
+  "path": "dispatching-parallel-agents",
+  "path_key": "dispatching-parallel-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jnMetaCode/superpowers-zh.git",
+    "subpath": "skills\\dispatching-parallel-agents",
+    "branch": null
+  }
+}

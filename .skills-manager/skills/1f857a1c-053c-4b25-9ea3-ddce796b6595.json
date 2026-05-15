@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1f857a1c-053c-4b25-9ea3-ddce796b6595",
+  "path": "sql-code-review",
+  "path_key": "sql-code-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

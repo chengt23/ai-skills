@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b16688cd-afbf-402d-a7ff-a0ea248c06ee",
+  "path": "writing-skills",
+  "path_key": "writing-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jnMetaCode/superpowers-zh.git",
+    "subpath": "skills\\writing-skills",
+    "branch": null
+  }
+}

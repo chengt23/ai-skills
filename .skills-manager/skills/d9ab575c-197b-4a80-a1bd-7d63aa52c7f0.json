@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d9ab575c-197b-4a80-a1bd-7d63aa52c7f0",
+  "path": "using-superpowers",
+  "path_key": "using-superpowers",
+  "enabled": true,
+  "tags": [
+    "元技能"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/jnMetaCode/superpowers-zh.git",
+    "subpath": "skills\\using-superpowers",
+    "branch": null
+  }
+}
